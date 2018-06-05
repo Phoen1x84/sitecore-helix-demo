@@ -1,7 +1,7 @@
 {
   "name": "sitecore-helix-demo",
   "version": "1.0.0",
-  "description": "",
+  "description": "An example sitecore helix project trying different front-end approaches to build tools",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Phoen1x84/sitecore-helix-demo.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Neil",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Phoen1x84/sitecore-helix-demo/issues"
   },
-  "homepage": "https://github.com/Phoen1x84/sitecore-helix-demo#readme"
+  "homepage": "https://github.com/Phoen1x84/sitecore-helix-demo#readme",
+  "devDependencies": {
+    "webpack": "^4.11.0"
+  }
 }

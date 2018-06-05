@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.PageConten
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TeaRoom", "TeaRoom", "{36C7190F-DC5A-47E5-9C54-A9B0E8E311EA}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A50E6556-8DC1-4FB3-8662-5B663CD4DD27}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{A50E6556-8DC1-4FB3-8662-5B663CD4DD27}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		package.json = package.json
+		readme.md = readme.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.TeamRoom.Website", "src\Project\TeamRoom\code\Sitecore.TeamRoom.Website\Sitecore.TeamRoom.Website.csproj", "{8D90EF5D-4A39-45E4-A872-39D854A5A862}"
