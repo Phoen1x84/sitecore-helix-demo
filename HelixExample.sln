@@ -20,6 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configurat
 		.gitignore = .gitignore
 		package.json = package.json
 		readme.md = readme.md
+		webpack.config.js = webpack.config.js
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.TeamRoom.Website", "src\Project\TeamRoom\code\Sitecore.TeamRoom.Website\Sitecore.TeamRoom.Website.csproj", "{8D90EF5D-4A39-45E4-A872-39D854A5A862}"
