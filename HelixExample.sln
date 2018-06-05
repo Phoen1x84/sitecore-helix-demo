@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.TeamRoom.Website", "src\Project\TeamRoom\code\Sitecore.TeamRoom.Website\Sitecore.TeamRoom.Website.csproj", "{8D90EF5D-4A39-45E4-A872-39D854A5A862}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{6F93B553-8D31-4145-8D13-AEF519A3FD56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitecore.Feature.Products", "src\Feature\products\code\Sitecore.Feature.Products\Sitecore.Feature.Products.csproj", "{D61056F3-9EB5-4CEE-BF52-E77CF25A0625}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +40,10 @@ Global
 		{8D90EF5D-4A39-45E4-A872-39D854A5A862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D90EF5D-4A39-45E4-A872-39D854A5A862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D90EF5D-4A39-45E4-A872-39D854A5A862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D61056F3-9EB5-4CEE-BF52-E77CF25A0625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D61056F3-9EB5-4CEE-BF52-E77CF25A0625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D61056F3-9EB5-4CEE-BF52-E77CF25A0625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D61056F3-9EB5-4CEE-BF52-E77CF25A0625}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +53,8 @@ Global
 		{ABAEBA70-98D7-41ED-9718-EF6796F62A57} = {581A634F-9F11-4213-8074-D803FC313A21}
 		{36C7190F-DC5A-47E5-9C54-A9B0E8E311EA} = {677D89A1-1912-4A74-B333-A6E6BA02F0DF}
 		{8D90EF5D-4A39-45E4-A872-39D854A5A862} = {36C7190F-DC5A-47E5-9C54-A9B0E8E311EA}
+		{6F93B553-8D31-4145-8D13-AEF519A3FD56} = {89D88C65-EB48-46C5-9EE2-803CCD75DD41}
+		{D61056F3-9EB5-4CEE-BF52-E77CF25A0625} = {6F93B553-8D31-4145-8D13-AEF519A3FD56}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7245BDFD-1630-4948-9732-705F21BF82AE}
