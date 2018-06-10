@@ -2,9 +2,10 @@
   "name": "sitecore-helix-demo",
   "version": "1.0.0",
   "description": "An example sitecore helix project trying different front-end approaches to build tools",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -d --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,17 @@
   },
   "homepage": "https://github.com/Phoen1x84/sitecore-helix-demo#readme",
   "devDependencies": {
-    "webpack": "^4.11.0"
+    "babel-core": "^6.26.3",
+    "babel-register": "^6.26.0",
+    "gulp": "^3.9.1",
+    "gulp-msbuild": "^0.5.5",
+    "run-sequence": "^2.2.1",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-msbuild-plugin": "^1.0.15"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
